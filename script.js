@@ -2,6 +2,6 @@ function myFunction() {
     document.getElementById('change').style.display = 'none';
 }
 
-function myFunction() {
+function myFunctions() {
     window.alert('welcome ola')
 }

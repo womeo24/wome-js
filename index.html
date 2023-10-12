@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>javascript</title>
   </head>
-  <script src="./script.js"></script> 
+  <script src="./script.js"></script>
 
- <body>
-    
+  <body>
     <div id="change">
       <h1>welcome to javascript class</h1>
       <h1>what javascript can do</h1>
@@ -26,8 +25,17 @@
         change the color
       </button>
       <button type="button" onclick="myFunction()">change the color</button>
-      <button type="button" onclick="myFunction()">change the color</button>
+      <button type="button" onclick="myFunctions()">change the color</button>
     </div>
-    <script></script>
+
+    <p id="demo"></p>
+    <script>
+      const pi       = 3.15;
+      let person = "gt";
+      let answer = "yes i am";
+
+      document.getElementById("demo").innerHTML =
+        pi + "<br />" + person + "<br />" + answer;
+    </script>
   </body>
 </html>
