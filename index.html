@@ -29,13 +29,56 @@
     </div>
 
     <p id="demo"></p>
+
+    <p>Call a function which performs a calculation and returns the result:</p>
+
+    <p id="demo"></p>
+
     <script>
-      const pi       = 3.15;
+      function myFunction(p1, p2) {
+        return p1 * p2;
+      }
+
+      let result = myFunction(4, 3);
+      document.getElementById("demo").innerHTML = result;
+      console.log("result", result);
+    </script>
+
+    <script>
+      let result = myFunction(4, 3);
+      document.getElementById("demo2").innerHTML = result;
+
+      function myFunction(4, 3) {
+        return 4 * 3;
+      }
+
+      const pi = 3.15;
       let person = "gt";
       let answer = "yes i am";
 
       document.getElementById("demo").innerHTML =
         pi + "<br />" + person + "<br />" + answer;
+
+      // string
+      let color = "yellow";
+      let person = "gt";
+
+      // numbers
+      let lenght = 16;
+      let weight = 12.5;
+
+      // boolean
+      let x = true;
+      let y = false;
+
+      // object
+      const person = { firstName: "gt", lastName: "best" };
+
+      // array
+      const car = ["volvo", "bmw", "audi"];
+
+      // object
+      const date = new Date("10-13-2013");
     </script>
   </body>
 </html>
