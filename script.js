@@ -11,15 +11,15 @@ function myFunctions() {
 
 // string
 let color = 'yellow';
-let person = 'gt';
+let Name = 'gt';
 
 // numbers
 let lenght = 16;
 let weight = 12.5;
 
 // boolean
-let x = true;
-let y = false;
+let text = true;
+let numbers = false;
 
 // object
 const person = {firstName:"gt", lastName:"best"};
@@ -32,7 +32,7 @@ const date = new Date('10-13-2023')
 
 
 // undefine
-let x;
+let xyx;
 
 // boolean
 let x = 6;
@@ -43,10 +43,3 @@ let z = 4;
 (x == z) // false
 
 
-
-let x = myFunction(4, 3);
-document.getElementById('result').innerHTML = x;
-
-function myFunction(a, b) {
-    re
-}
